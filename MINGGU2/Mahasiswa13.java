@@ -43,8 +43,7 @@ package MINGGU2;
     this.ipk = ipk;
   }
   
-  Mahasiswa13 mhsFadilaMayamasita = new Mahasiswa13("Fadila Mayamasita", "254107020012", "TI 1C", 3.23);
-
+ 
 }
 
  

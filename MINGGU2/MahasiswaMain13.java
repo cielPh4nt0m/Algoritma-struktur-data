@@ -18,7 +18,7 @@ public class MahasiswaMain13 {
         mhs2.tampilkanInformasi();
 
         Mahasiswa13 mhsFadilaMayamasita = 
-            new Mahasiswa13("Fadila Mayamasita", "254107020012", "TI 1C", 3.23);
+            new Mahasiswa13("Fadila Mayamasita", "254107020012", "TI 1C", 2.23);
 
          mhsFadilaMayamasita.tampilkanInformasi();
             System.out.println("Nilai Kinerja: " + mhsFadilaMayamasita.nilaiKinerja());
