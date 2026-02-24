@@ -1,29 +1,27 @@
 package MINGGU2;
 
 public class MataKuliah13 {
-    String kodeMk;
+    String kodeMK;
     String nama;
     int sks;
     int jumlahJam;
 
     void tampilkanInformasi() {
-        System.out.println("kode Mk: " + kodeMk);
+        System.out.println("Kode MK: " + kodeMK);
         System.out.println("Nama: " + nama);
-        System.out.println("jumlah SKS: " + sks);
-        System.out.println("Jumlah jam: " + jumlahJam);
+        System.out.println("Jumlah SKS: " + sks);
+        System.out.println("Jumlah Jam: " + jumlahJam);
     }
 
     void ubahSKS(int sksBaru) {
         sks = sksBaru;
     }
 
-    void tambahJam(int Tambahjam) {
-        jumlahJam += Tambahjam;
+    void tambahJam(int tambahJam) {
+        jumlahJam += tambahJam;
     }
 
-    void kurangiJam(int Kurangijam) {
-        jumlahJam -= Kurangijam;
+    void kurangiJam(int kurangiJam) {
+        jumlahJam -= kurangiJam;
     }
-
-
 }
