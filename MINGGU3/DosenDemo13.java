@@ -30,5 +30,13 @@ public class DosenDemo13 {
            System.out.println("-----------------------------------------");
 
        }
+
+       //membuat objek pemanggilan DataDosen13
+       DataDosen13 data = new DataDosen13();
+       data.dataSemuaDosen(arrayOfDosen13);
+       data.jumlahDosenBerdasarkanJenisKelamin(arrayOfDosen13);
+       data.rerataUsiaDosenPerJenisKelamin(arrayOfDosen13);
+       data.infoDosenPalingTua(arrayOfDosen13);
+       data.infoDosenPalingMuda(arrayOfDosen13);
     }
 }
