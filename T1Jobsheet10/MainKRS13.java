@@ -32,7 +32,7 @@ public class MainKRS13 {
                 String prodi = sc.nextLine();
                 System.out.print("Kelas  : ");
                 String kelas = sc.nextLine();
-                Mahasiswa13 mhs  new Mahasiswa13(nim, nama, prodi, kelas);
+               Mahasiswa13 mhs = new Mahasiswa13(nim, nama, prodi, kelas);
                 antrianKRS13.tambahAntrian(mhs);
                 break;
              case 2:
